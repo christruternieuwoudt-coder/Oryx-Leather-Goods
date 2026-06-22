@@ -125,3 +125,9 @@ export default function ProductDetailPage() {
     </div>
   );
 }
+export async function generateStaticParams() {
+  return [
+    { id: 'classic-card-holder' },
+    { id: 'artisan-bifold-wallet' }
+  ];
+}
