@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import productsData from '@/data/products.json';
+import productsData from '@/app/data/products.json';
 import ProductCard from '@/components/ProductCard';
 import { ShieldCheck, Sparkles, Clock, Compass } from 'lucide-react';
 
