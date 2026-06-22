@@ -2,9 +2,8 @@
 const nextConfig = {
   output: 'export',
   basePath: '/Oryx-Leather-Goods',
-  assetPrefix: '/Oryx-Leather-Goods',
   images: {
-    unoptimized: true, // Required for static HTML exports
+    unoptimized: true,
   },
 };
 
