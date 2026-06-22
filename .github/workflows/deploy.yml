@@ -24,10 +24,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
 
       - name: Install Application Dependencies
-        run: npm ci
+        run: npm install --no-audit --no-fund
 
       - name: Execute Next.js Compilation Static Generation Build Engine
         run: npm run build
