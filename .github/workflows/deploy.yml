@@ -34,7 +34,7 @@ jobs:
       - name: Upload Static Export Build Artifacts Stack
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out/Oryx-Leather-Goods
 
   deploy:
     environment:
