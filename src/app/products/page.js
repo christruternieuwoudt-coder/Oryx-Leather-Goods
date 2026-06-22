@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import productsData from '@/data/products.json';
+import productsData from '@/app/data/products.json';
 import ProductCard from '@/components/ProductCard';
 import { Search } from 'lucide-react';
 
