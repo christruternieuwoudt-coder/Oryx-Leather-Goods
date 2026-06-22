@@ -1,0 +1,31 @@
+[
+  {
+    "id": "classic-card-holder",
+    "name": "Classic Minimalist Card Holder",
+    "category": "card-holders",
+    "price": 45.00,
+    "shortDescription": "Sleek, slimline execution for essential cards and folded bills.",
+    "fullDescription": "Individually benchcrafted with premium full-grain vegetable-tanned leather. Features hand-burnished edges and saddle-stitching for structural longevity. Will age beautifully to reveal a personal rich patina.",
+    "mainImage": "/images/products/wallet-1.jpg",
+    "additionalImages": [
+      "/images/products/wallet-1.jpg",
+      "/images/products/holder-1.jpg"
+    ],
+    "leatherType": "Full-Grain Italian Vegetable Tanned Leather",
+    "availableColors": ["Saddle Tan", "Cognac", "Dark Brown", "Charcoal"],
+    "featured": true
+  },
+  {
+    "id": "artisan-bifold-wallet",
+    "name": "Artisan Bifold Wallet",
+    "category": "wallets",
+    "price": 120.00,
+    "shortDescription": "Traditional elegance meets rugged, long-term durability.",
+    "fullDescription": "A beautiful classic design featuring 6 card slots and a dedicated bill compartment. Hand-stitched with durable waxed thread. This wallet feels high-end yet unpretentious.",
+    "mainImage": "/images/products/wallet-1.jpg",
+    "additionalImages": [],
+    "leatherType": "Premium Horween Chromexcel",
+    "availableColors": ["Cognac", "Dark Brown"],
+    "featured": true
+  }
+]
