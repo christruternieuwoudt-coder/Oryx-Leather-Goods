@@ -1,5 +1,5 @@
 'use client';
-import { useCart } from '@/app/context/CartContext';
+import { useCart } from '@/context/CartContext';
 import { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { Trash2, ShieldCheck, MailCheck } from 'lucide-react';
