@@ -1,4 +1,4 @@
-'use main';
+
 import './globals.css';
 import { CartProvider } from '@/context/CartContext';
 import Navbar from '@/components/Navbar';
