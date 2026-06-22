@@ -14,7 +14,7 @@ export default function OrderRequestPage() {
   // Initialize EmailJS via Public Key Client Key safely without environment leaking dependencies
   useEffect(() => {
     // Replace with your real Public Key from your EmailJS dashboard settings
-    emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+    emailjs.init(pNJMERzh7IYoeilDK);
   }, []);
 
   const handleInputChange = (e) => {
@@ -48,7 +48,7 @@ export default function OrderRequestPage() {
 
     try {
       // Replace with your real Service ID and Template ID strings
-      await emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", emailParams);
+      await emailjs.send("template_q70uqjg", "YOUR_TEMPLATE_ID", emailParams);
       
       setStatus({ dynamic: 'success', message: 'Order Request successfully locked.' });
       clearCart();
