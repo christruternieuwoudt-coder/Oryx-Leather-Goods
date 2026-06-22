@@ -1,7 +1,7 @@
 'use client';
 import { useParams } from 'next/navigation';
 import { useState } from 'react';
-import productsData from '@/data/products.json';
+import productsData from '@/app/data/products.json';
 import { useCart } from '@/context/CartContext';
 import { CheckCircle2, ChevronRight, Maximize2 } from 'lucide-react';
 import Link from 'next/link';
